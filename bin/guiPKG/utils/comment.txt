@@ -1,0 +1,142 @@
+
+	/*
+	 * //Not sure what this method really wants to do //Your naming convention
+	 * throws off your code //You have to use names that implies functionality and
+	 * purpose for easy //readability for teacher and fellow group members public
+	 * void name5(){
+	 * 
+	 * Staff stf= new Staff(); stf.setFirstName(userText.getText()); String
+	 * a=stf.getFirstName(); System.out.println(a); JFrame mainWin1 = new
+	 * JFrame("Home & Away Institute"); // create window and set title
+	 * mainWin1.setSize(800, 500); mainWin1.setLocationRelativeTo(null); JPanel
+	 * login = new JPanel(); login.setSize(1000, 1000); login.setLayout(null);
+	 * login.setBackground(Color.darkGray); j = new JLabel(stf.getFirstName());
+	 * j.setBounds(325, 425, 300, 25); j.setFont(new Font("Arial", Font.BOLD, 15));
+	 * j.setForeground(Color.black); login.add(j); mainWin1.add(login);
+	 * mainWin1.setVisible(true); }
+	 * 
+	 * 
+	 * 
+	 * public static void stuMenu() { stuWin = new//put all of this inside the
+	 * student or staff screen instead
+	 * JFrame("Home & Away Institute - Student Menu");
+	 * stuWin.setExtendedState(JFrame.MAXIMIZED_BOTH); // set to maximized window
+	 * stuWin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	 * stuWin.setLayout(null);
+	 * 
+	 * apptitle = new JLabel("Home & Away Institute"); apptitle.setFont(new
+	 * Font("Arial", Font.BOLD, 40)); apptitle.setForeground(Color.black);
+	 * apptitle.setBounds(575, 150, 500, 50); stuWin.add(apptitle);
+	 * 
+	 * name = new JLabel("Name"); name.setText(String.valueOf(Student.firstName +
+	 * " " + Student.lastName)); name.setBounds(30, 30, 300, 30); stuWin.add(name);
+	 * 
+	 * menu = new JPanel(); menu.setBounds(0, 0, 1920, 1080); menu.setLayout(null);
+	 * menu.setBackground(Color.lightGray); stuWin.add(menu);
+	 * 
+	 * courseBtn = new JButton("Add Course"); courseBtn.setBounds(350, 350, 100,
+	 * 30); courseBtn.addActionListener(new LoginScreen());
+	 * courseBtn.setBorder(BorderFactory.createBevelBorder(1));
+	 * courseBtn.setBackground(Color.ORANGE); menu.add(courseBtn);
+	 * 
+	 * progdetails = new JButton("View Programme Details");
+	 * progdetails.setBounds(500, 350, 200, 30); progdetails.addActionListener(new
+	 * LoginScreen()); progdetails.setBorder(null);
+	 * progdetails.setBackground(Color.ORANGE); menu.add(progdetails);
+	 * 
+	 * feeBtn = new JButton("Generate Fee Breakdown"); feeBtn.setBounds(750, 350,
+	 * 200, 30); feeBtn.setBorder(null); feeBtn.setBackground(Color.ORANGE);
+	 * menu.add(feeBtn);
+	 * 
+	 * genReportBtn = new JButton("Generate Programme Report");
+	 * genReportBtn.setBounds(1000, 350, 200, 30); genReportBtn.setBorder(null);
+	 * genReportBtn.setBackground(Color.ORANGE); menu.add(genReportBtn);
+	 * 
+	 * signOut = new JButton("Sign out"); signOut.addActionListener(new
+	 * LoginScreen()); signOut.setBounds(1400, 50, 100, 30);
+	 * signOut.setBorder(null); signOut.setBackground(Color.ORANGE);
+	 * menu.add(signOut);
+	 * 
+	 * stuWin.setVisible(true);
+	 * 
+	 * courseMenu = new JPanel(); courseMenu.setName("Student Menu");
+	 * courseMenu.setBounds(250, 250, 500, 500); courseMenu.setLayout(null); }
+	 * 
+	 * ?
+	 * 
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)
+	 */
+
+
+
+
+
+     /*
+	 * if (e.getSource().equals(stuBtn)) {
+	 * success.setText("Login Succesfull!");
+	 * // mainWin.setVisible(false);
+	 * // stuMenu();
+	 * } else {
+	 * success.setText("Login failed. Try Again");
+	 * }
+	 * 
+	 * if (e.getSource().equals(signOut)) {
+	 * stuWin.dispose();
+	 * LoginWin.setVisible(true);
+	 * success.setText("Logged Out");
+	 * }
+	 * 
+	 * if (e.getSource().equals(courseBtn)) {
+	 * }
+	 * 
+	 * if (e.getSource().equals(feeBtn)) {
+	 * }
+	 * 
+	 * if (e.getSource().equals(genReportBtn)) {
+	 * }
+	 * 
+	 * if (e.getSource().equals(progdetails)) {
+	 * }
+	 */
+
+	 */
+Staff create a program all the attributes for pogram
+Staff create course 
+All the atrr
+Create programme when the staff makes it no courses will be there 
+Staff can also 
+Staff create programme tell how much courses the program must have 
+Staff will then create course and use the program to tell which programme is associated with
+Add course method inside a staff
+
+Things to note
+	Check if the course exits and if the programme code exist that they are assigning such specific course wid 
+	Check if the course already exists 
+	Check if the number of courses exceeds the amount or not
+
+Course and programme code:
+		Course code and programmed code in one file
+Program details will be program file 
+
+Programme Code in a crouse class
+	In the view programme details 
+                       Name: 
+
+Student add course 
+                     Cna make read all course from course file with the specific programme code
+ 	         Weh the student have ad display it to the student 
+	         List of course and cost 
+	         Display the course details display available courses method:
+                    All or specific course 
+Student id and course Id Into one file 
+	
+
+Read all courses from the course which have the same program code as the program code associated with the student. Then display it to the student
+	 
+
+Register Student – the system should accept student’s details and generate a student
+record. The student id number should be generated using the current year, programme code 
+and a sequence that starts at zero (0), and the enrollment status should be set to zero (0).
